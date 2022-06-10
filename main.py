@@ -1,6 +1,3 @@
-"""
-ÖNEMLİ NOT: Çalıştırdıktan sonra programı kapatmak için "Q" tuşuna basın.
-"""
 
 import cv2
 
@@ -22,8 +19,7 @@ def detect(frame):
     return frame
 
 
-# Webcam ile tanıma yapılıyor.
-# Eğer bilgisayarınızda birden fazla kamera bağlıysa 0'ı 1 yapabilirsiniz.
+
 video_capture = cv2.VideoCapture(0)
 while True:
     _, frame = video_capture.read()
